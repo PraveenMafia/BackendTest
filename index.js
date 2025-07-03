@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 3000;
 app.get('/api/example', (req, res) => {
     res.json({ message: 'Hello from the backend!' });
 });
+
+app.get('/api/Rocktest', (req, res) => {
+    res.json({ message: 'Hi ROCK' });
+});
 // END: Backend Route
 
 app.listen(PORT, () => {

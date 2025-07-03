@@ -8,7 +8,7 @@ app.get('/api/example', (req, res) => {
     res.json({ message: 'Hello from the backend!' });
 });
 
-app.get('/api/Rocktest', (req, res) => {
+app.get('/api/rocktest', (req, res) => {
     res.json({ message: 'Hi ROCK' });
 });
 // END: Backend Route
